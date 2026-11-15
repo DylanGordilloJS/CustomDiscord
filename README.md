@@ -6,9 +6,7 @@ Un tema oscuro, moderno y altamente translúcido para Discord, basado en **Clear
 
 ## 📸 Vista Previa
 
-*(Arrastra y suelta tus capturas de pantalla aquí en GitHub o reemplaza el enlace de abajo)*
-
-![Vista previa del tema](![alt text](image.png))
+![alt text](image.png)
 
 ---
 
