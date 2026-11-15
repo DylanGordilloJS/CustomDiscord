@@ -1,0 +1,55 @@
+/**
+ * @name Tema Cinematic ClearVision
+ * @author Dylan
+ * @version 7.1.0
+ * @description Tema personalizado basado en ClearVision V7 con fondo y diseño flotante translúcido.
+ */
+
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+/* SETTINGS & CUSTOM BACKGROUND */
+:root {
+  /* ACCENT COLORS */
+  --main-color: #2780e6;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+
+  /* BACKGROUND IMAGE REPLACED */
+  --background-image: url('https://backiee.com/static/wallpapers/5120x2880/464327.jpg');
+  --background-position: center;
+  --background-size: cover;
+  --background-attachment: fixed;
+}
+
+/* ASH THEME SHADING MODIFICATIONS FOR HIGH TRANSPARENCY */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.65);
+  --card-shading: rgba(12, 12, 15, 0.45);
+  --popout-shading: rgba(10, 10, 12, 0.75);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(15, 15, 20, 0.5);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* --- DISEÑO FLOTANTE Y TRANSLÚCIDO PARA LA CAJA DE TEXTO Y CHAT --- */
+.form-3gdLxP {
+  background: transparent !important;
+  border-top: none !important;
+  padding: 0 24px 24px 24px !important;
+}
+
+.channelTextArea-1FufCx {
+  background-color: rgba(15, 15, 20, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 14px !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+.scrollableContainer-15SwHr {
+  background-color: transparent !important;
+}
