@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# CustomDiscord
-=======
 # 🎨 Custom ClearVision Transparent - Tema para BetterDiscord
 
 Un tema oscuro, moderno y altamente translúcido para Discord, basado en **ClearVision v7**. Incluye un diseño flotante con efecto desenfoque (*glassmorphism*) para la caja de texto y tonos oscuros estilizados.
